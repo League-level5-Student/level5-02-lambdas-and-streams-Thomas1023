@@ -22,6 +22,7 @@ public class CreatingStreams {
 		randStack.push(new Random());
 		randStack.push(new Random());
 		randStack.push(new Random());
+		Stream<Random> rand = Stream.randStack();
 		
 		ArrayDeque<Double> dQueue = new ArrayDeque<Double>();
 		dQueue.push(0.0);
